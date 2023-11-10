@@ -1,0 +1,8 @@
+<h1><%= @pet.name %>'s profile</h1>
+
+<h4><%= @pet.address %></h4>
+<h4><%= @pet.species %></h4>
+<h4><%= @pet.found_on %></h4>
+
+<%= link_to "Edit profile", edit_pet_path(@pet) %>
+<%= link_to "List of all pet's", pets_path %>
